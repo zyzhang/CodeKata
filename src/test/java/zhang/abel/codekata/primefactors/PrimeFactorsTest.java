@@ -1,5 +1,6 @@
 package zhang.abel.codekata.primefactors;
 
+
 import org.junit.Test;
 
 import java.util.Collections;
@@ -39,10 +40,5 @@ public class PrimeFactorsTest {
     @Test
     public void should_return_3_3_given_input_9() {
         assertThat(generate(9), is(asList(3, 3)));
-    }
-
-    @Test
-    public void should_() {
-        assertThat(generate(8765432), is(asList(1)));
     }
 }
