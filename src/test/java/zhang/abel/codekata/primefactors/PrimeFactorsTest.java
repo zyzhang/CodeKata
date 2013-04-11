@@ -13,7 +13,7 @@ import static zhang.abel.codekata.primefactors.PrimeFactors.generate;
 public class PrimeFactorsTest {
 
     @Test
-    public void should_return_emppty_list_given_input_1() {
+    public void should_return_empty_list_given_input_1() {
         assertThat(generate(1), is(Collections.EMPTY_LIST));
     }
 
